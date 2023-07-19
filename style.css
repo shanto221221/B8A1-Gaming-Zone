@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header section start here */
+.header {
+    background-color: #fff;
+    box-shadow: 1px 2px 10px #444;
+}
+
+.leftHeader {
+    padding-top: 5px;
+}
+
+.leftHeader img {
+    width: 47px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.leftHeader h2 {
+    font-size: 23px;
+    padding: 1px 0 2px 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+.rightHeader {
+    justify-content: flex-end;
+}
+
+.rightHeader div {
+    margin-left: 20px;
+    padding-top: 7px;
+    font-weight: 600;
+}
+
+.rightHeaderBtn {
+    background-color: #87878717;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.rightHeaderBtn i {
+    padding: 4px;
+    padding-left: 7px;
+}
+
+/* header section end here */
+
+/* banner Section start */
+
+.bannerSection {
+    background-color: #87878717;
+}
+
+.bannerleft {
+    padding: 60px 0px;
+}
+
+.bannerleft h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bannerleft h1 {
+    color: #ff42a5;
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+.bannerleft p {
+    font-size: 14px;
+    line-height: 10px;
+    color: #444;
+    font-weight: 600;
+
+}
+
+.bannerleft button {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.bannerRight {
+    text-align: center;
+}
+
+.bannerRight img {
+    width: 90%;
+    height: 430px;
+}
+
+/* banner Section end */
+
+
+/* online gammer section start here */
+.gameText {
+    text-align: center;
+}
+
+.gameText h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.gameText p {
+    font-size: 10px;
+    line-height: 8px;
+    color: #444;
+    font-weight: 600;
+}
+
+
+.gameCard img {
+    width: 100%;
+    height: auto;
+}
+
+.gameCard p {
+    font-size: 12px;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+/* play game section start here */
+
+/* play game section end here */
+
+.leftPlayGame {
+    text-align: center;
+    position: relative;
+}
+
+.leftPlayGame img {
+    width: 75%;
+    height: auto;
+}
+
+.leftImage2 img {
+    width: 200px;
+    height: 220px;
+}
+
+.leftImage2 {
+    position: absolute;
+    right: 0;
+    bottom: -48px;
+}
+
+.rightPlayGame {
+    padding: 130px 45px 0px 45px;
+}
+
+.rightPlayGame h2 {
+    font-size: 30px;
+    color: #ff42a5;
+    font-weight: 700;
+}
+
+.rightPlayGame p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+/* online gammer section end here */
+
+
+/* link section start here */
+.linkSection {
+    background-color: #87878717;
+    margin-top: 90px;
+    overflow-x: hidden;
+}
+
+.allCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkCard {
+    border-radius: 4px;
+    padding: 5px 11px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.linkCard img {
+    width: 30px;
+    height: 30px;
+}
+
+.linkCard p {
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.linkCard p:hover {
+    color: #ff42a5;
+}
+
+.linkCard:hover {
+    border: 1px solid #ff42a5;
+}
+
+/* link section end here */
+
+
+/* footer start here */
+.footerSection {
+    background-color: #444;
+    padding-left: 40px;
+}
+
+.footerHeader {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.footerHeader img {
+    width: 47px;
+    height: 25px;
+    margin: 10px;
+}
+
+.footerHeader h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.footerLnk {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footerLnk2 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.footerLnk3 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 17px 0;
+}
+
+.footerLnk3 ul li {
+    margin-right: 35px;
+}
+
+.footerLnk3 ul li i {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.footerLnk ul li a {
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footerLnk ul li :hover {
+    color: #fff;
+}
+
+.footerLnk2 ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerLnk2 ul li :hover {
+    color: #878787;
+}
+
+.foterText {
+    text-align: center;
+    padding: 10px 120px 10px 0;
+}
+
+.foterText p {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* footer end here */
+
+@media only screen and (min-width: 550px) {
+    .hideLink {
+        display: none;
+    }
+
+    .allCard {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .rightHeader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightHeaderBtn {
+        justify-content: center;
+    }
+
+    .bannerleft {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .gameText h2 {
+        font-size: 20px;
+    }
+
+    .gameCard {
+        text-align: center;
+    }
+
+    .gameCard img {
+        width: 60%;
+        height: auto;
+    }
+
+    .gameCard p {
+        font-size: 8px;
+    }
+
+    .rightPlayGame {
+        padding: 70px 45px 0px 45px;
+    }
+
+    .rightPlayGame h2 {
+        font-size: 25px;
+    }
+
+    .rightPlayGame p {
+        text-align: justify;
+    }
+
+    .allCard {
+        display: none;
+    }
+
+    .linkCard {
+        padding: 5px;
+        border: none;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+
+    .linkCard p {
+        font-size: 10px;
+        padding-left: 10px;
+        transition: all 0.4s;
+        padding-top: 10px;
+    }
+
+    .footerHeader {
+        padding-right: 90px;
+    }
+
+    .footerHeader h2 {
+        padding-left: 0px;
+    }
+
+    .footerLnk2 {
+        display: none;
+    }
+
+    .foterText {
+        text-align: center;
+        padding: 10px 60px 10px 0;
+    }
+
+    .foterText p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+}
